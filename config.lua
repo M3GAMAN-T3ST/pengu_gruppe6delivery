@@ -1,11 +1,11 @@
 Config = {}
 
-Config.Notify = 'ox' -- 'qb' or 'ox' or 'none'
-Config.Target = 'ox' -- 'qb' or 'ox'
-Config.Menu = 'ox' -- 'qb' or 'ox'
-Config.Progressbar = 'ox' -- 'qb' or 'ox'
-Config.Inventory = 'ox' -- 'qb' or 'ox'
-Config.Skillcheck = 'ox' -- 'ps' or 'ox'
+Config.Notify = 'qb' -- 'qb' or 'ox' or 'none'
+Config.Target = 'qb' -- 'qb' or 'ox'
+Config.Menu = 'qb' -- 'qb' or 'ox'
+Config.Progressbar = 'qb' -- 'qb' or 'ox'
+Config.Inventory = 'qb' -- 'qb' or 'ox'
+Config.Skillcheck = 'ps' -- 'ps' or 'ox'
 
 Config.FuelResource = 'LegacyFuel'
 
@@ -21,7 +21,7 @@ Config.InkedItemName = 'inked_cash_bag'
 
 Config.Vehicle = 'stockade'
 
-Config.Use3DMarker = true
+Config.Use3DMarker = false
 
 Config.VehicleSpawns = {
     vector4(-32.41, -670.52, 31.34, 187.86),
@@ -73,7 +73,7 @@ Config.OrganizerPed = {
     Icon = 'fas fa-briefcase',
 }
 
-Config.OrganizerMarker = true
+Config.OrganizerMarker = false
 
 Config.MoneyPerOrganizedMin = 300
 Config.MoneyPerOrganizedMax = 400
